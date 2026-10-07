@@ -1,0 +1,25 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo circular con gradiente -->
+  <circle cx="16" cy="16" r="15" fill="url(#bgGradient)" />
+  
+  <!-- Sombra de la N -->
+  <text x="16" y="24" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="url(#shadowGradient)" transform="translate(0.5, 0.5)">N</text>
+  
+  <!-- Letra N principal -->
+  <text x="16" y="24" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#ffffff">N</text>
+  
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="shadowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:0.4" />
+      <stop offset="50%" style="stop-color:#6d28d9;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#be185d;stop-opacity:0.4" />
+    </linearGradient>
+  </defs>
+</svg>
+
